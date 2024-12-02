@@ -1,0 +1,385 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #35524a;
+}
+
+header {
+  display: flex;
+  background-color: #d6a36c;
+  justify-content:space-between;
+  align-items: center;
+}
+
+ol {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin-right: 50px;
+}
+
+.logo {
+  padding: 10px;
+}
+
+.foto {
+  background-image: url("Section 1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+}
+
+h1 {
+  font-family: "Inria-serif";
+  font-size: 88px;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+p {
+  color: aliceblue;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.cardapio {
+  margin-top: 50px;
+  background-color: #a8d5ba;
+  font-weight: bold;
+  padding: 10px;
+  color: #4b2e2e;
+  border-radius: 8px;
+  border: none;
+}
+
+.george {
+  display: flex;
+  padding: 25px 50px;
+  background-color: #35524a;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.fotos-ao-lado-texto {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.text {
+  width: 500px;
+}
+.text h3 {
+  font-family: "Inria-serif";
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 150%;
+  color: #ffff;
+}
+
+.text p {
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 300;
+  color: #d0d0d0;
+}
+
+.fotog {
+  width: 340px;
+  border-radius: 8px;
+}
+
+.foto2 {
+  display: flex;
+  padding: 25px 50px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.pt2 {
+  background-color: #35524a;
+  width: auto;
+  border-radius: 8px;
+}
+
+.parte2g {
+  margin-bottom: 10px;
+  position: relative;
+  width: 100%;
+  max-width: 1285px;
+  margin: 0 auto;
+}
+
+.ultimafoto {
+  width: 100%;
+  height: 300px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.overlay h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.email-form {
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.email-input {
+  padding: 10px;
+  font-size: 1em;
+  border-radius: 5px;
+  border: none;
+  width: 250px;
+  background-color: white;
+}
+
+.submit-btn {
+  padding: 10px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  background-color: #f39c12;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #e67e22;
+}
+
+#pad {
+  padding: 10px 20px;
+}
+
+.cafeteria {
+  padding: 50px;
+  background-color: #fff5ef;
+  background-image: url("fundo-cafe.png");
+  background-size: cover;
+}
+
+.cafeteria h2 {
+  font-family: "Inria-serif";
+  font-size: 88px;
+  font-weight: bold;
+  line-height: 150%;
+  color: #45220f;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 32px;
+  text-align: center;
+  border-radius: 32px;
+  width: 405px;
+  height: auto;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.063);
+}
+
+.card h3 {
+  font-family: "Inria-serif";
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 150%;
+  color: #45220f;
+}
+
+.card span {
+  font-family: "Inria-serif";
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 150%;
+  color: #35524a;
+}
+
+.card p {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 150%;
+  color: #000000;
+}
+
+.container-button {
+  margin: 32px;
+  text-align: center;
+}
+
+.btn-marrom {
+  background-color: #4b2e2e;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px;
+  color: #e0e0e0;
+  border-radius: 8px;
+  border: none;
+}
+
+.livraria1 {
+  padding: 50px;
+  background-color: #35524a;
+  background-image: url("fundo-livros.png");
+  background-size: cover;
+}
+
+.livroo {
+  font-family: "Inria-serif";
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 150%;
+  color: #fffcfb;
+  margin: 50px;
+}
+
+.quem-somos {
+  background-color: #fff5ef;
+  padding: 50px;
+}
+
+.quem-somos h2 {
+  font-family: "Inria-serif";
+  font-size: 88px;
+  font-weight: bold;
+  line-height: 150%;
+  color: #45220f;
+  margin-bottom: 32px;
+}
+
+.card-cargos {
+  background-color: #ffffff;
+  width: 405px;
+  border-radius: 32px;
+  text-align: center;
+  padding: 32px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.063);
+}
+
+.quem-somos h6 {
+  font-weight: bold;
+  font-family: "Inria-serif";
+
+  font-size: 24px;
+}
+
+.quem-somos span {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.caixa-cargos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.contato {
+  background-color: #d6a36c;
+  background-image: url("fundo-cafe.png");
+  background-size: cover;
+  padding: 70px;
+}
+
+.contato h2 {
+  font-family: "Inria-serif";
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 150%;
+}
+.usuarios{
+  display: flex; 
+  flex-direction: column;
+  gap: 24px;
+}
+.div-pai-contato{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 50px;
+}
+.botao-enviar {
+  padding: 10px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  background-color: #a8d5ba;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  height: 50px;
+
+}
+.div-pai-footer{
+  background-color: #4b2e2e;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 50px;
+}
+.explorar {
+  font-family: (roboto);
+  color: white;
+}
+.footer-h4{
+  font-family: 'Roboto';
+  color: white;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.link-primeira-fileira{
+  display: flex;
+  flex-direction: column;
+}
+.link-segunda-fileira{
+  display: flex;
+  flex-direction: column;
+}
+.link-terceira-fileira{
+  display: flex;
+  flex-direction: column;
+}
+.div-pai-footer{
+  display: flex;
+  gap: 50px;
+}
